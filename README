@@ -1,0 +1,3 @@
+This program loads an image file, allows the user to select a region, and then allows the user to save the extracted region.
+If the "Interpret as RGB" checkbox is checked, the input image will be loaded as an RGB image, and the output will be written as an unsigned char png. The image must have 3 channels for this behavior.
+To display images whose number of channels is not equal to 3, the magnitude image is computed and displayed. The output is saved as a float mhd file.
